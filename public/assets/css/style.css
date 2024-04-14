@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Estilo de navbar*/
+.header{
+    background-color: #F1F3F8;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 10%);
+}
+
+
+h3{
+  font-family: 'poppins', sans-serif;
+}
+
+h5{
+  cursor: pointer;
+}
+
+.card-img-top{
+    width: 100%; 
+    height: 355px; 
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.modal-body img{
+  width: 100%;
+  object-fit: contain;
+}
+/*Estilo de ocultar la letra cuando es grande con(..)*/
+.card-body .card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Número de líneas */
+  -webkit-box-orient: vertical;
+}
+
+.card-body i{
+  font-size: 27px;
+  color: #bb8b8b;
+}
+.btnLike{
+  border: none;
+  background-color: transparent;
+}
+
+.btnLike i{
+  color: #daaaaa;
+}
+
+.btnLike i:hover{
+  background-color: transparent;
+  color: #c54c4c;
+}
+
+/*Estilo de drag and drop*/
+#drop-area {
+    margin: 10px;
+    height: 250px;
+    width: 590px;
+    color: #bdbaba;
+    font-family: 'poppins', sans-serif;
+    border: 4px dashed #ccc;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  #drop-area.active{
+    border: 4px dashed #8d8989;
+  }
+
+  #drop-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /*Estilo icon*/
+  #drop-area i{
+    font-size: 60px;
+    color: #9b9898;
+  }
+
+  h4{
+    font-family: 'poppins', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+
+  
