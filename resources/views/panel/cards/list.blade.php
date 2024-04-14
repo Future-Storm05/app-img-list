@@ -22,7 +22,7 @@
                                             @csrf
                                             <input type="hidden" name="card_like_id" value="{{$card->card_id}}">
                                             <button type="submit" class="btnLike btn position-absolute top-0 start-0 m-1 p-0" data-card-id="{{ $card->card_id }}">
-                                                <i class="bi bi-heart-fill"><span class="like-count">{{$card->card_like}}</span></i>
+                                                <i class="bi bi-heart-fill"><span class="like-count"> {{$card->card_like}}</span></i>
                                             </button>
                                         </form>
                                     </div>
@@ -48,8 +48,8 @@
                                                         <h1 class="modal-title fs-5 p-3" id="exampleModalLabel">{{$card->card_title}}</h1>
                                                     </div>
                                                     <div class="col-12">
-                                                    <button type="button" id="likeButton" name="likeButton" class="btnLike btn position-absolute">
-                                                        <i class="bi bi-heart-fill" style="font-size: 25px;"><span class="like-count">{{$card->card_like}}</span></i>
+                                                    <button type="submit" class="btnLike p-3" data-card-id="{{ $card->card_id }}">
+                                                        <i class="bi bi-heart-fill" style="font-size: 23px"><span class="like-count">{{$card->card_like}}</span></i>
                                                     </button>
                                                     </div>
                                                 </div>
